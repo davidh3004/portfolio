@@ -47,7 +47,7 @@ export default function Portfolio() {
       {/* Hero Section */}
       <section className="px-4 sm:px-6 lg:px-8 py-12 sm:py-16 md:py-20 lg:py-24">
         <AnimatedSection className="flex flex-col items-center text-center space-y-8">
-          <div className="space-y-4">
+          <div className="pt-14 space-y-4">
             <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
               Hola, soy{" "}
               <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
