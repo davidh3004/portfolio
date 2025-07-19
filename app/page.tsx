@@ -37,6 +37,7 @@ import ButtonsContact from "@/components/buttons-contact";
 import Projects from "@/components/projects";
 import Contact from "@/components/contact";
 import { SkillsCarousel } from "@/components/Skills/carousel";
+import Certificates from "@/components/certificates";
 
 export default function Portfolio() {
   return (
@@ -48,7 +49,7 @@ export default function Portfolio() {
         <AnimatedSection className="flex flex-col items-center text-center space-y-8">
           <div className="space-y-4">
             <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
-              Hi, I'm{" "}
+              Hola, soy{" "}
               <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
                 David Henríquez
               </span>
@@ -113,6 +114,7 @@ export default function Portfolio() {
       <Technical />
       <Soft />
       <Projects />
+      <Certificates />
       <Contact />
 
       {/* Footer */}
